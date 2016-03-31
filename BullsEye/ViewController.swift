@@ -27,8 +27,6 @@ class ViewController: UIViewController {
   }
   
   func updateLabels() {
-    print(targetValue)
-    print(String(targetValue))
     targetLabel.text = String(targetValue)
   }
   override func viewDidLoad() {
