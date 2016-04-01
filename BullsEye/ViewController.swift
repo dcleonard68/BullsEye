@@ -42,6 +42,27 @@ class ViewController: UIViewController {
     // Dispose of any resources that can be recreated.
   }
   @IBAction func showAlert() {
+    
+    // Calculating the score
+    
+    var difference: Int
+    if currentValue > targetValue {
+      difference = currentValue - targetValue
+      
+    } else if targetValue > currentValue {
+      difference = targetValue - currentValue
+    } else {
+      
+    }
+    
+    let message = "The value of the slider is: \(currentValue)"
+                + "\nThe target value is: \(targetValue)"
+                + "\nThe target difference is:\(difference)"
+      ...
+  // End of calculation
+  
+  
+
     let message = "The value of the slider is: \(currentValue)"
       + "\nThe target value is: \(targetValue)"
     
@@ -58,6 +79,7 @@ class ViewController: UIViewController {
     
     startNewRound()
     updateLabels()
+
   }
   //Slider Move
   
@@ -67,8 +89,6 @@ class ViewController: UIViewController {
   }
 }
 
-// Calculating the score
 
 
-
-
+ 
