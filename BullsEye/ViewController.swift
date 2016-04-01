@@ -67,5 +67,8 @@ class ViewController: UIViewController {
   }
 }
 
+// Calculating the score
+
+
 
 
