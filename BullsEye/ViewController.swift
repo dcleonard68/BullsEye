@@ -60,7 +60,7 @@ class ViewController: UIViewController {
                 + "\nThe target difference is:\(difference)"
   // End of calculation
     
-    let alert = UIAlertController(title: "Hello, World",
+    let alert = UIAlertController(title: "Hello",
       message: message,preferredStyle: .Alert)
     
     let action = UIAlertAction(title: "OK", style: .Default,
