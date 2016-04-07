@@ -52,19 +52,13 @@ class ViewController: UIViewController {
     } else if targetValue > currentValue {
       difference = targetValue - currentValue
     } else {
-      
+      difference = 0
     }
     
     let message = "The value of the slider is: \(currentValue)"
                 + "\nThe target value is: \(targetValue)"
                 + "\nThe target difference is:\(difference)"
-      ...
   // End of calculation
-  
-  
-
-    let message = "The value of the slider is: \(currentValue)"
-      + "\nThe target value is: \(targetValue)"
     
     let alert = UIAlertController(title: "Hello, World",
       message: message,preferredStyle: .Alert)
